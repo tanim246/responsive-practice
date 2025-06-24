@@ -16,213 +16,290 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <!-- navbar section -->
+    <main>
+      <!-- navbar section -->
 
-    <section class="main-nav-container max-width">
-      <div class="logo">
-        <i class="fa-solid fa-shield-halved"></i>
-        <h1>Parrots <span>Academy</span></h1>
-      </div>
+      <section class="main-nav-container max-width">
+        <div class="logo">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h1>Parrots <span>Academy</span></h1>
+        </div>
 
-      <div class="nav-items">
-        <ul>
-          <li>
-            <i class="fa-solid fa-house"></i>
-            Home
-          </li>
-          <li>
-            <i class="fa-solid fa-address-card"></i>
-            About
-          </li>
-          <li>
-            <i class="fa-solid fa-blog"></i>
-            Blogs
-          </li>
-          <li>
-            <i class="fa-solid fa-phone-volume"></i>
-            Contact
-          </li>
-          <li class="login"><i class="fa-solid fa-lock"></i> Login</li>
-        </ul>
-      </div>
-    </section>
+        <div class="nav-items">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-house"></i>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#courses">
+                <i class="fa-solid fa-blog"></i>
+                Courses
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-address-card"></i>
+                About
+              </a>
+            </li>
 
-    <!-- banner section -->
+            <li>
+              <a href="#contact">
+                <i class="fa-solid fa-phone-volume"></i>
+                Contact
+              </a>
+            </li>
+            <li class="login"><i class="fa-solid fa-lock"></i> Login</li>
+          </ul>
+        </div>
+      </section>
 
-    <section class="main-banner-container max-width">
-      <!-- banner content part -->
-      <div class="banner-content">
-        <h1><span>We Interested</span> in Digitizing Your Business</h1>
+      <!-- banner section -->
+
+      <section class="main-banner-container max-width">
+        <!-- banner content part -->
+        <div class="banner-content">
+          <h1><span>We Interested</span> in Digitizing Your Business</h1>
+          <p>
+            A talented team to help you in your journey on creating useful and
+            easy to use product. A talented team to help you in your journey on
+            creating useful and easy to use product.
+          </p>
+          <button>Lets talk</button>
+        </div>
+        <!-- banner image part -->
+        <div class="banner-image">
+          <img src="./programmer.png" alt="" />
+          <p class="banner-image-card image-card1">
+            <i class="fa-solid fa-code"></i>
+            <span> Web Development</span>
+          </p>
+          <p class="banner-image-card image-card2">
+            <i class="fa-solid fa-computer"></i>
+            <span> Basic Computer</span>
+          </p>
+          <p class="banner-image-card image-card3">
+            <i class="fa-brands fa-figma"></i>
+            <span> UI/UX Design</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- course section -->
+
+      <section class="main-course-container max-width" id="courses">
+        <!-- course heading -->
+        <div class="course-heading-container">
+          <h1>Our <span>Courses</span></h1>
+          <p>
+            Personalized lessons designed to strengthen your skills in reading,
+            <br />
+            writing, listening, and speaking
+          </p>
+        </div>
+
+        <!-- course cards -->
+        <div class="main-card-container">
+          <!-- card - 1 -->
+          <div class="card-container">
+            <div class="course-card-image">
+              <img src="./course1.jpg" alt="courseimage" />
+            </div>
+
+            <div class="course-card-content">
+              <h1>Basic Computer</h1>
+              <p class="course-content-sub-heading">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda soluta enim necessitatibus. Corrupti, saepe veniam!
+                Facere, expedita ad vel beatae assumenda consequuntur sit eaque
+                nihil.
+              </p>
+              <hr />
+
+              <div class="course-card-attribute">
+                <p>
+                  <i class="fa-regular fa-clock"></i>
+                  <span> 2 Mounth</span>
+                </p>
+                <div>
+                  <span class="prv-price"
+                    ><i class="fa-solid fa-dollar-sign"></i>1500</span
+                  >
+                  <span><i class="fa-solid fa-dollar-sign"></i>1200</span>
+                </div>
+              </div>
+
+              <button>Preview this course</button>
+            </div>
+          </div>
+
+          <!-- card 2  -->
+
+          <div class="card-container">
+            <div class="course-card-image">
+              <img src="./course1.jpg" alt="courseimage" />
+            </div>
+
+            <div class="course-card-content">
+              <h1>Web Development</h1>
+              <p class="course-content-sub-heading">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda soluta enim necessitatibus. Corrupti, saepe veniam!
+                Facere, expedita ad vel beatae assumenda consequuntur sit eaque
+                nihil.
+              </p>
+
+              <hr />
+              <div class="course-card-attribute">
+                <p>
+                  <i class="fa-regular fa-clock"></i>
+                  <span> 2 Mounth</span>
+                </p>
+                <div>
+                  <span class="prv-price"
+                    ><i class="fa-solid fa-dollar-sign"></i>1500</span
+                  >
+                  <span><i class="fa-solid fa-dollar-sign"></i>1200</span>
+                </div>
+              </div>
+
+              <button>Preview this course</button>
+            </div>
+          </div>
+
+          <!-- card 3  -->
+
+          <div class="card-container">
+            <div class="course-card-image">
+              <img src="./course1.jpg" alt="courseimage" />
+            </div>
+
+            <div class="course-card-content">
+              <h1>Software Development</h1>
+              <p class="course-content-sub-heading">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda soluta enim necessitatibus. Corrupti, saepe veniam!
+                Facere, expedita ad vel beatae assumenda consequuntur sit eaque
+                nihil.
+              </p>
+              <hr />
+
+              <div class="course-card-attribute">
+                <p>
+                  <i class="fa-regular fa-clock"></i>
+                  <span> 2 Mounth</span>
+                </p>
+                <div>
+                  <span class="prv-price"
+                    ><i class="fa-solid fa-dollar-sign"></i>1500</span
+                  >
+                  <span><i class="fa-solid fa-dollar-sign"></i>1200</span>
+                </div>
+              </div>
+
+              <button>Preview this course</button>
+            </div>
+          </div>
+
+          <!-- card 4 -->
+          <div class="card-container">
+            <div class="course-card-image">
+              <img src="./course1.jpg" alt="courseimage" />
+            </div>
+
+            <div class="course-card-content">
+              <h1>UI/UX Design</h1>
+              <p class="course-content-sub-heading">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda soluta enim necessitatibus. Corrupti, saepe veniam!
+                Facere, expedita ad vel beatae assumenda consequuntur sit eaque
+                nihil.
+              </p>
+              <hr />
+
+              <div class="course-card-attribute">
+                <p>
+                  <i class="fa-regular fa-clock"></i>
+                  <span> 2 Mounth</span>
+                </p>
+                <div>
+                  <span class="prv-price"
+                    ><i class="fa-solid fa-dollar-sign"></i>1500</span
+                  >
+                  <span><i class="fa-solid fa-dollar-sign"></i>1200</span>
+                </div>
+              </div>
+
+              <button>Preview this course</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+
+      <section class="main-contact-container max-width" id="contact">
+        <!-- contact heading -->
+        <div class="contact-heading-container">
+          <h1><span>Contact</span></h1>
+          <p>
+            Personalized lessons designed to strengthen your skills in reading,
+            <br />
+            writing, listening, and speaking
+          </p>
+        </div>
+
+        <!-- contact form  -->
+        <div class="contact-form-container">
+          <form class="contact-form">
+            <div>
+              <i class="fa-regular fa-user"></i>
+              <input type="text" placeholder="Enter your name" />
+            </div>
+            <div>
+              <i class="fa-regular fa-envelope"></i>
+              <input type="email" placeholder="Enter your email" />
+            </div>
+            <div>
+              <i class="fa-solid fa-phone-volume"></i>
+              <input type="number" placeholder="Enter your number" />
+            </div>
+            <div>
+              <i class="fa-regular fa-comment text-area-icon"></i>
+              <textarea
+                rows="4"
+                cols="50"
+                placeholder="Write your message"
+              ></textarea>
+            </div>
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer-container">
+      <div class="footer-container">
+        <div class="logo footer-logo">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h1><span>Parrots</span> Academy</h1>
+        </div>
+
         <p>
-          A talented team to help you in your journey on creating useful and
-          easy to use product. A talented team to help you in your journey on
-          creating useful and easy to use product.
+          A talented team to help you in your journey on creating <br />
+          useful and easy to use product. A talented team to help you in your
+          journey on creating useful and easy to use product.
         </p>
-        <button>Lets talk</button>
-      </div>
-      <!-- banner image part -->
-      <div class="banner-image">
-        <img src="./programmer.png" alt="" />
-        <p class="banner-image-card image-card1">
-          <i class="fa-solid fa-code"></i>
-          <span> Web Development</span>
-        </p>
-        <p class="banner-image-card image-card2">
-          <i class="fa-solid fa-computer"></i>
-          <span> Basic Computer</span>
-        </p>
-        <p class="banner-image-card image-card3">
-          <i class="fa-brands fa-figma"></i>
-          <span> UI/UX Design</span>
-        </p>
-      </div>
-    </section>
-
-    <!-- course section -->
-
-    <section class="main-course-container max-width">
-      <!-- course heading -->
-      <div class="course-heading-container">
-        <h1>Our <span>Courses</span></h1>
-        <p>
-          Personalized lessons designed to strengthen your skills in reading,
-          <br />
-          writing, listening, and speaking
-        </p>
-      </div>
-
-      <!-- course cards -->
-      <div class="main-card-container">
-        <!-- card - 1 -->
-        <div class="card-container">
-          <div class="course-card-image">
-            <img src="./course1.jpg" alt="courseimage" />
-          </div>
-
-          <div class="course-card-content">
-            <h1>Basic Computer</h1>
-            <p class="course-content-sub-heading">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              soluta enim necessitatibus. Corrupti, saepe veniam! Facere,
-              expedita ad vel beatae assumenda consequuntur sit eaque nihil.
-            </p>
-            <hr />
-
-            <div class="course-card-attribute">
-              <p>
-                <i class="fa-regular fa-clock"></i>
-                <span> 2 Mounth</span>
-              </p>
-              <div>
-                <span class="prv-price"
-                  ><i class="fa-solid fa-dollar-sign"></i>1500</span
-                >
-                <span><i class="fa-solid fa-dollar-sign"></i>1200</span>
-              </div>
-            </div>
-
-            <button>Preview this course</button>
-          </div>
-        </div>
-
-        <!-- card 2  -->
-
-        <div class="card-container">
-          <div class="course-card-image">
-            <img src="./course1.jpg" alt="courseimage" />
-          </div>
-
-          <div class="course-card-content">
-            <h1>Web Development</h1>
-            <p class="course-content-sub-heading">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              soluta enim necessitatibus. Corrupti, saepe veniam! Facere,
-              expedita ad vel beatae assumenda consequuntur sit eaque nihil.
-            </p>
-
-            <hr />
-            <div class="course-card-attribute">
-              <p>
-                <i class="fa-regular fa-clock"></i>
-                <span> 2 Mounth</span>
-              </p>
-              <div>
-                <span class="prv-price"
-                  ><i class="fa-solid fa-dollar-sign"></i>1500</span
-                >
-                <span><i class="fa-solid fa-dollar-sign"></i>1200</span>
-              </div>
-            </div>
-
-            <button>Preview this course</button>
-          </div>
-        </div>
-
-        <!-- card 3  -->
-
-        <div class="card-container">
-          <div class="course-card-image">
-            <img src="./course1.jpg" alt="courseimage" />
-          </div>
-
-          <div class="course-card-content">
-            <h1>Software Development</h1>
-            <p class="course-content-sub-heading">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              soluta enim necessitatibus. Corrupti, saepe veniam! Facere,
-              expedita ad vel beatae assumenda consequuntur sit eaque nihil.
-            </p>
-            <hr />
-
-            <div class="course-card-attribute">
-              <p>
-                <i class="fa-regular fa-clock"></i>
-                <span> 2 Mounth</span>
-              </p>
-              <div>
-                <span class="prv-price"
-                  ><i class="fa-solid fa-dollar-sign"></i>1500</span
-                >
-                <span><i class="fa-solid fa-dollar-sign"></i>1200</span>
-              </div>
-            </div>
-
-            <button>Preview this course</button>
-          </div>
-        </div>
-
-        <!-- card 4 -->
-        <div class="card-container">
-          <div class="course-card-image">
-            <img src="./course1.jpg" alt="courseimage" />
-          </div>
-
-          <div class="course-card-content">
-            <h1>UI/UX Design</h1>
-            <p class="course-content-sub-heading">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              soluta enim necessitatibus. Corrupti, saepe veniam! Facere,
-              expedita ad vel beatae assumenda consequuntur sit eaque nihil.
-            </p>
-            <hr />
-
-            <div class="course-card-attribute">
-              <p>
-                <i class="fa-regular fa-clock"></i>
-                <span> 2 Mounth</span>
-              </p>
-              <div>
-                <span class="prv-price"
-                  ><i class="fa-solid fa-dollar-sign"></i>1500</span
-                >
-                <span><i class="fa-solid fa-dollar-sign"></i>1200</span>
-              </div>
-            </div>
-
-            <button>Preview this course</button>
-          </div>
+        <div class="footer-icons">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-whatsapp"></i>
         </div>
       </div>
-    </section>
+    </footer>
   </body>
 </html>
